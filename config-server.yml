@@ -4,6 +4,3 @@ eureka:
     register-with-eureka: true
     service-url:
       default-zone: http://animal-hotel-service-registry:8761/eureka/
-spring:
-  zipkin:
-    base-url: http://host.docker.internal:9411/
