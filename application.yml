@@ -3,4 +3,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      default-zone: http://animal-hotel-service-registry:8761/eureka/
+      default-zone: http://localhost:8762/eureka/
