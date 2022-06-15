@@ -3,9 +3,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://animal-hotel-service-registry:8761/eureka/
-  instance:
-    hostname: animal-hotel-service-registry
+      default-zone: http://animal-hotel-service-registry:8761/eureka/
 spring:
   zipkin:
     base-url: http://host.docker.internal:9411/
