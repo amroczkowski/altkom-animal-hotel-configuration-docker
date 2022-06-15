@@ -1,0 +1,11 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://animal-hotel-service-registry:8761/eureka/
+  instance:
+    hostname: animal-hotel-service-registry
+spring:
+  zipkin:
+    base-url: http://host.docker.internal:9411/
